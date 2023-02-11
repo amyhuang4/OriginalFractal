@@ -2,7 +2,6 @@ int w = 300;
 float bingo = 0.0;
 public void setup() {
   size (600, 600);
-  background(255);
 }
 
 public void draw() {
