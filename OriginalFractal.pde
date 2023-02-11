@@ -8,7 +8,6 @@ public void setup() {
 public void draw() {
   w+=2;
   if (w>=1200) w = 600;
-  System.out.println(w);
   translate(300,300);
   stroke(255);
   snowglobe(w);
