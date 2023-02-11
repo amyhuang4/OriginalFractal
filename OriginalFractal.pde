@@ -31,6 +31,7 @@ public void snowglobe(int hm) {
   fill (176, 212, 229);
   ellipse(0, 0, hm+300, hm+300);
   fill(255);
+  rotate(36);
   ellipse(0, 0, hm+200, hm+200);
   fill (176, 212, 229);
   arc(0, 0, hm+100, hm+100,PI,HALF_PI);
