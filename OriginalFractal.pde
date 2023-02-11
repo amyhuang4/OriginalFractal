@@ -50,7 +50,7 @@ public void snowglobe(int w) {
   arc (0, 0, w-300, w-300, PI, PI+THIRD_PI, PIE);
   arc (0, 0, w-300, w-300, PI+2*THIRD_PI, TWO_PI, PIE);
   rotate(-bingo);
-  if (w >= 600) {
+  /*if (w >= 600) {
     snowglobe(w-600);
-  }
+  }*/
 }
