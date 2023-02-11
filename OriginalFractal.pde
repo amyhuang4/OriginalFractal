@@ -40,16 +40,6 @@ public void snowglobe(int w) {
   arc (0, 0, w, w, PI, PI+THIRD_PI, PIE);
   arc (0, 0, w, w, PI+2*THIRD_PI, TWO_PI, PIE);
   rotate(bingo);
-  rotate(bingo);
-  fill (176, 212, 229);
-  arc (0, 0, w-300, w-300, 0, THIRD_PI, PIE);
-  arc (0, 0, w-300, w-300, 2*THIRD_PI, PI, PIE);
-  arc (0, 0, w-300, w-300, PI+THIRD_PI, PI+2*THIRD_PI, PIE);
-  fill (245, 198, 207);
-  arc (0, 0, w-300, w-300, THIRD_PI, 2*THIRD_PI, PIE);
-  arc (0, 0, w-300, w-300, PI, PI+THIRD_PI, PIE);
-  arc (0, 0, w-300, w-300, PI+2*THIRD_PI, TWO_PI, PIE);
-  rotate(-bingo);
   if (w >= 600) {
     snowglobe(w-600);
   }
